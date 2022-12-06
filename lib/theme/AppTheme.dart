@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
   AppTheme._();
-  static Color colorX = Color(0xff99ff05);
   static List<Color> colorOptions = [
     Color(0xff99ff05),
     Color(0xff6750a4),
@@ -11,8 +10,7 @@ class AppTheme {
     Colors.green,
     Colors.yellow,
     Colors.orange,
-    Colors.pink,
-    colorX
+    Colors.pink
   ];
   static List<String> colorText = <String>[
     "M3 Baseline",
@@ -23,11 +21,10 @@ class AppTheme {
     "Yellow",
     "Orange",
     "Pink",
-    "Colorx",
   ];
   static bool useMaterial3 = false;
   static bool useLightMode = true;
-  static int colorSelected = 2;
+  static int colorSelected = 1;
 
   static ThemeData themeData = ThemeData(
       colorSchemeSeed: AppTheme.colorOptions[AppTheme.colorSelected],

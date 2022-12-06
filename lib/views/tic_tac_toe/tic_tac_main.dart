@@ -95,9 +95,7 @@ class TicTacToeState extends State<MainTresEnRayaPage> {
   ];
 
   void accion() {
-    setState(() {
-      AppTheme.colorX = Colors.pink;
-    });
+    setState(() {});
   }
 
   void btnInicio() {
@@ -261,7 +259,6 @@ class TicTacToeState extends State<MainTresEnRayaPage> {
 
   @override
   Widget build(BuildContext context) {
-    AppTheme.colorX = Colors.pink;
     List funx = [
       numClick,
       numClick,
